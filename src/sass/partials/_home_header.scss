@@ -7,12 +7,11 @@
   padding: 40px 20px 44px 20px;
 
   &__container {
-    margin: 0 auto;
     text-align: center;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 54px;
+    margin-bottom: 60px;
   }
   &__icon-main {
     width: 24px;
@@ -113,29 +112,19 @@
   }
 
   &__toggle-container {
-    width: 20px;
-    height: 20px;
-    margin-bottom: 20px;
   }
 
   &__toggle {
-    width: 20px;
-    height: 20px;
-    position: relative;
     background-color: transparent;
     cursor: pointer;
     border: none;
 
     &__icon {
-      position: absolute;
       fill: white;
       width: 20px;
       height: 20px;
-      right: 0;
-      top: 0;
     }
   }
-
 
   //tablet
   @media screen and (min-width: $breakpoint-tablet) and (max-width: $breakpoint-desktop) {

@@ -12,6 +12,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 60px;
   }
   &__icon {
     width: 24px;
@@ -63,7 +64,6 @@
     display: flex;
     justify-content: center;
     gap: 20px;
-    margin-top: 60px;
   }
   &__button {
     color: #ffffff;
@@ -88,26 +88,17 @@
     }
   }
   &__toggle-container {
-    width: 20px;
-    height: 20px;
-    margin-bottom: 20px;
   }
 
   &__toggle {
-    width: 20px;
-    height: 20px;
-    position: relative;
     background-color: transparent;
     cursor: pointer;
     border: none;
 
     &__icon {
-      position: absolute;
       fill: white;
       width: 20px;
       height: 20px;
-      left: 15px;
-      top: 0;
     }
   }
   // DODAĆ STYLE TO JS
@@ -147,10 +138,6 @@
         width: 152px;
       }
     }
-    &__toggle__icon {
-      top: 65px;
-      left: -20px;
-    }
     &__toggle-container {
       float: right;
     }
@@ -183,10 +170,7 @@
         width: 148px;
       }
     }
-    &__toggle__icon {
-      top: 65px;
-      left: -100px;
-    }
+
     &__toggle-container {
       float: right;
     }
